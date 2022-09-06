@@ -158,7 +158,7 @@
             "weapons/barbarians/heavy_rusty_axe",
             "weapons/barbarians/rusty_warblade",
             "weapons/barbarians/skull_hammer",
-            "weapons/barbarians/two_handed_spikce_mace"
+            "weapons/barbarians/two_handed_spiked_mace"
         ];
 
         local MIDLAND_ARMOR = [
