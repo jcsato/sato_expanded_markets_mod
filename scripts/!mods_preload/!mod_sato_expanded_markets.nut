@@ -1,4 +1,4 @@
-::mods_registerMod("sato_expanded_markets", 1.2, "Sato's Expanded Markets");
+::mods_registerMod("sato_expanded_markets", 1.3, "Sato's Expanded Markets");
 
 ::mods_queue(null, null, function() {
     ::SEM_NORTHERN_BEAST_PARTS_LOW <- [
@@ -198,7 +198,7 @@
         local fillStash = b.fillStash;
 
         ::mods_override(b, "fillStash", function(_list, _stash, _priceMult, _allowDamagedEquipment = false) {
-            fillStash(_list, _stash, _priceMult, _allowDamagedEquipment = false);
+            fillStash(_list, _stash, _priceMult, _allowDamagedEquipment);
             foreach( item in _stash.getItems() ) {
                 if (item.getID() == "armor.head.greatsword_faction_helm" || item.getID() == "armor.head.faction_helm") {
                     local settlement = getSettlement();
