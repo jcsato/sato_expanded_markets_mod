@@ -23,6 +23,8 @@ Expanded Markets increases the selection of goods available to purchase in settl
 
 **Beast Components:** Settlements with Taxidermists will now occasionally have beast crafting components available for sale. Trophies from the rarest and most dangerous beasts will have a markup, so be prepared to pay up if you want Lindwurm scales or the heart of a Schrat. Beast parts are region specific, so go North for white Unhold fur, South for Serpent scales, etc.
 
+**Named Shields:** Armorsmiths can now sell Named Shields, everybody's favorite.
+
 ## Requirements
 
 1) [Modding Script Hooks](https://www.nexusmods.com/battlebrothers/mods/42) (v20 or later)
