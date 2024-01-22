@@ -1,0 +1,7 @@
+[General]
+modname=sato_expanded_markets
+version=1.5
+
+[Build]
+modkitpath=YOUR_MODKIT_PATH_HERE
+datapath=YOUR_DATA_PATH_HERE

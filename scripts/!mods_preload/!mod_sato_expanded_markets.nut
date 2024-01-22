@@ -1,4 +1,4 @@
-::mods_registerMod("sato_expanded_markets", 1.4, "Sato's Expanded Markets");
+::mods_registerMod("sato_expanded_markets", 1.5, "Sato's Expanded Markets");
 
 ::mods_queue(null, null, function() {
     ::SEM_NORTHERN_BEAST_PARTS_LOW <- [
@@ -283,8 +283,9 @@
                 }
             }
 
-            if (_id == "building.armorsmith") {
+            if (_id == "building.armorsmith" || _id == "building.armorsmith_oriental") {
                 local shieldList = [];
+
                 foreach(i in Const.Items.NamedShields) {
                     if (Math.rand(1, 100) <= 33)
                         shieldList.push({ R = 99, P = 2.0, S = i });
